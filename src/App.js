@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Login from './components/Login'
+import Bookmarks from './components/Bookmarks'
+import Register from './components/Register'
+import Tags from './components/Tags'
+import Edit from './components/Edit'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <iframe src="https://adal.dev/" frameborder="0" width="100%" height="100%"></iframe>
+	
+        <Switch>
+					<Route exact path='/bookmarks' component={Bookmarks} />
+          <Route exact path='/register' component={Register} />
+          <Route exact path='/tags' component={Tags} />
+          <Route exact path='/edit' component={Edit} />
+
+					<Route exact path='/' component={Login} />
+				</Switch>
+		
+		</Router>
   );
 }
 
