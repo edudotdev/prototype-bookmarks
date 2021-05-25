@@ -108,8 +108,8 @@ export default function Bookmarks() {
           </div>
           <div class="bookmarks">
             <div class="bookmarks_data">
-              <p class="bookmarks_data_title">W3SCHOOLS</p>
-              <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
+              <p class="bookmarks_data_title">Linkedin</p>
+              <a href="https://www.w3schools.com/">https://www.linkedin.com/</a>
               <div class="bookmarks_data_tags">
                 <a href="#" class="tag">css</a>
                 <a href="#" class="tag">html</a>
@@ -128,8 +128,8 @@ export default function Bookmarks() {
           </div>
           <div class="bookmarks">
             <div class="bookmarks_data">
-              <p class="bookmarks_data_title">W3SCHOOLS</p>
-              <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
+              <p class="bookmarks_data_title">github</p>
+              <a href="https://www.w3schools.com/">https://github.com/home</a>
               <div class="bookmarks_data_tags">
                 <a href="#" class="tag">css</a>
                 <a href="#" class="tag">html</a>
@@ -148,8 +148,8 @@ export default function Bookmarks() {
           </div>
           <div class="bookmarks">
             <div class="bookmarks_data">
-              <p class="bookmarks_data_title">W3SCHOOLS</p>
-              <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
+              <p class="bookmarks_data_title">Google Fonts</p>
+              <a href="https://www.w3schools.com/">https://fonts.google.com/</a>
               <div class="bookmarks_data_tags">
                 <a href="#" class="tag">css</a>
                 <a href="#" class="tag">html</a>
